@@ -1,24 +1,33 @@
-# README
+# Gamers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+ゲームソフトの感想投稿サイト
 
-Things you may want to cover:
+### サイトテーマ
+ゲーム好きが集まるサイト
 
-* Ruby version
+### テーマを選んだ理由
+新しくゲームを買う時や、実際にプレイした後に色々なサイトで感想やレビューを読むことが好きです。
+色々なゲームの感想が1つのサイトでまとめられればと思いこのテーマを選ぶことにしました。
+また、サブテーマとして"繋がりを増やす"というものがあり、プロフィールにTwitterやInstagramのアカウントを記載できる場所を設け、気に入ったユーザーと外で繋がれるような要素も足しました。
 
-* System dependencies
+### ターゲットユーザ
+ゲーム好きな一般ユーザ
+ゲームについて語り合える仲間が少ない人
 
-* Configuration
+### 主な利用シーン
+次にプレイしたいと思えるゲームの選定時
+ゲームをプレイした後の感想投稿や閲覧
 
-* Database creation
+## 設計書
+<...>
 
-* Database initialization
+## チャレンジ要素一覧
+https://docs.google.com/spreadsheets/d/1tSSjzXypNxYIUAOM3tHqUcZ1Np6nxbz14wIjsgQj79c/edit#gid=0
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
