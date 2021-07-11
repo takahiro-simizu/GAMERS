@@ -10,6 +10,43 @@
   </head>
 
   <body>
+    <header id="header" class="navbar navbar-light bg-light">
+      <div class="container">
+        <nav class="nav navbar-light navbar-left">
+           <%= link_to "GAMERS", root_path, class: "my-3" %>
+        </nav><br>
+        <nav class="clearfix">
+          <ul class="nav nav-pills navbar-light navbar-right">
+            <% if user_signed_in? %>
+             <li class="mr-4">
+               ようこそ、<%= current_user.name %>さん！
+             </li>
+             <li>
+               <%= link_to "マイページ", my_user_path(current_user.id), style: "color:black;", class: "mr-4" %>
+             </li>
+             <li>
+               <%= link_to "記事一覧", articles_path, style: "color:black;", class: "mr-4" %>
+             </li>
+             <li>
+               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, style: "color:black;", class: "mr-4"%>
+             </li>
+            <% else %>
+             <li>
+               <%= link_to "記事一覧", articles_path, style: "color:black;", class: "mr-4" %>
+             </li>
+             <li>
+               <%= link_to "新規登録", new_user_registration_path, style: "color:black;", class: "mr-4" %>
+             </li>
+             <li>
+               <%= link_to "ログイン", new_user_session_path, style: "color:black;", class: "mr-4" %>
+             </li>
+            <% end %>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <%= yield %>
+
   </body>
 </html>

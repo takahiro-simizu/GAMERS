@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_11_064241) do
+ActiveRecord::Schema.define(version: 2021_07_11_083220) do
 
   create_table "articles", force: :cascade do |t|
     t.text "game_name", null: false
@@ -36,9 +36,8 @@ ActiveRecord::Schema.define(version: 2021_07_11_064241) do
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.string "name", null: false
-    t.string "image"
     t.text "fav_machine"
-    t.string "twitte_id"
+    t.string "twitter_id"
     t.string "instagram_id"
     t.boolean "is_active", default: true, null: false
     t.datetime "created_at", null: false
