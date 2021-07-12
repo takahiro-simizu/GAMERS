@@ -22,10 +22,13 @@
                ようこそ、<%= current_user.name %>さん！
              </li>
              <li>
-               <%= link_to "マイページ", my_user_path(current_user.id), style: "color:black;", class: "mr-4" %>
+               <%= link_to "マイページ", member_path(current_user.id), style: "color:black;", class: "mr-4" %>
              </li>
              <li>
                <%= link_to "記事一覧", articles_path, style: "color:black;", class: "mr-4" %>
+             </li>
+             <li>
+               <%= link_to "新規投稿", new_article_path, style: "color:black;", class: "mr-4" %>
              </li>
              <li>
                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, style: "color:black;", class: "mr-4"%>

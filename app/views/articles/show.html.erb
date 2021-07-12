@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row my-3">
+    <h2><%= @article.game_name %>(<%= @article.machine %>)</h2>
+  </div>
+
+  <div class="row">
+    <h5>[ 投稿者 ]</h5>
+    <p class="ml-5">
+      <%= link_to member_path(@article.user_id) do %>
+        <%= @article.user.name %>
+      <% end %>
+    </p>
+  </div>
+
+  <div class="row">
+    <%= attachment_image_tag @article, :image, format: 'jpg'%>
+  </div>
+
+  <div class="row mt-4">
+    <p><%= @article.review %></p>
+  </div>
+
+</div>

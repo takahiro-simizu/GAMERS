@@ -1,5 +1,5 @@
 class FavoritesController < ApplicationController
-  
+
   def create
     article = Article.find(params[:article_id])
     favorite = current_user.favorites.new(article_id: article.id)
@@ -8,10 +8,10 @@ class FavoritesController < ApplicationController
   end
 
   def destroy
-    article = Article.find(params[:article_id])
+    article = Article.find(params[:id])
     favorite = current_user.favorites.find_by(article_id: article.id)
     favorite.destroy
-    redirect_to article_path(article)
+    redirect_to article_path(article.id)
   end
-  
+
 end
