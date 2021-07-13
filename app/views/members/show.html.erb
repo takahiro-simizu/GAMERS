@@ -2,11 +2,14 @@
 
   <div class="row">
     <h3 class="my-3 float-left"> <%= @user.name%> さんの会員詳細</h3>
-    <% if @user.id == current_user.id %>
-      <div class="my-3 ml-5 float-right">
-          <%= link_to "編集する", edit_members_path, class: "btn btn-success" %>
-          <%= link_to "記事を書く", new_article_path, class: "btn btn-primary ml-3" %>
-      </div>
+
+    <% if user_signed_in? %>
+      <% if @user.id == current_user.id %>
+        <div class="my-3 ml-5 float-right">
+            <%= link_to "編集する", edit_members_path, class: "btn btn-success" %>
+            <%= link_to "記事を書く", new_article_path, class: "btn btn-primary ml-3" %>
+        </div>
+      <% end %>
     <% end %>
   </div>
 

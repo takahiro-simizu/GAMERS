@@ -19,11 +19,13 @@
   <div class="row mt-4">
     <p><%= @article.review %></p>
   </div>
-
-  <% if @article.user_id == current_user.id %>
-    <div class="row">
-        <%= link_to "編集する", edit_article_path(@article), class: "btn btn-success" %>
-    </div>
+  
+  <% if user_signed_in? %>
+    <% if @article.user_id == current_user.id %>
+      <div class="row">
+          <%= link_to "編集する", edit_article_path(@article), class: "btn btn-success" %>
+      </div>
+    <% end %>
   <% end %>
 
 </div>
