@@ -72,3 +72,5 @@ gem 'jquery-rails'
 gem 'kaminari','~> 1.2.1'
 
 gem 'pry-byebug'
+
+gem 'font-awesome-sass', '~> 5.13'

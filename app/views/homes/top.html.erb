@@ -1,1 +1,31 @@
-<h1>top</h1>
+<div class="container">
+  <div class="row">
+    <div class="mx-auto col-11 col-sm-10 col-lg-8 col-xl-6">
+      <h1>
+        <i class="fas fa-gamepad"></i><strong>GAMERS</strong>へようこそ！
+      </h1>
+      <p><i class="fas fa-gamepad"></i><strong>GAMERS</strong>では、</p>
+      <p>
+          プレイしたゲームの感想を投稿したり、<br />
+          他の人がプレイしたゲームの感想を閲覧することができます。
+      </p>
+      <p>
+          次にプレイするゲームを探したり、<br />
+          自分がプレイしたゲームの感想を読みたいときに利用して下さい！
+      </p>
+      <p>会員登録をすると記事を投稿できるようになります。</p>
+
+      <div class="btn-wrapper col-10 mx-auto">
+        <div class="row">
+          <%= link_to "ログインする", new_user_session_path, class: "btn btn-info btn-sm btn-block mb-3 sign_in" %>
+        </div>
+        <div class="row">
+          <%= link_to "新規登録する", new_user_registration_path, class: "btn btn-success btn-sm btn-block mb-3 sign-up" %>
+        </div>
+        <div class="row">
+          <%= link_to "記事を読んでみる", articles_path, class: "btn btn-warning btn-sm btn-block sign-up" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
