@@ -20,7 +20,16 @@
 ゲームをプレイした後の感想投稿や閲覧
 
 ## 設計書
-<...>
+[機能一覧]
+1.ログイン機能
+2.ログアウト機能
+3.記事一覧機能
+4.記事詳細機能
+5.ユーザー詳細機能
+6.記事投稿機能
+7.会員情報編集機能
+8.記事編集機能
+9.退会機能
 
 ## チャレンジ要素一覧
 https://docs.google.com/spreadsheets/d/1tSSjzXypNxYIUAOM3tHqUcZ1Np6nxbz14wIjsgQj79c/edit#gid=0
