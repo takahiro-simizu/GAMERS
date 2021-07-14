@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <%# ヘッダー %>
     <header id="header" class="navbar navbar-dark bg-dark">
       <div class="container">
         <nav class="nav navbar-light navbar-left">
@@ -18,6 +19,7 @@
         </nav><br>
         <nav class="clearfix">
           <ul class="nav nav-pills navbar-light navbar-right">
+            <%# サインイン後のnav %>
             <% if user_signed_in? %>
              <li class="mr-4", style="color:white;">
                ようこそ、<%= current_user.name %>さん！
@@ -35,6 +37,7 @@
                <%= link_to "ログアウト", destroy_user_session_path, method: :delete, style: "color:white;", class: "mr-4"%>
              </li>
             <% else %>
+            <%# サインイン(アップ)前 %>
              <li>
                <%= link_to "記事一覧", articles_path, style: "color:white;", class: "mr-4" %>
              </li>

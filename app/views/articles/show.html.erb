@@ -19,7 +19,8 @@
   <div class="row mt-4">
     <p><%= @article.review %></p>
   </div>
-
+  
+  <%# 閲覧者=投稿者なら編集ボタンを表示 %>
   <% if user_signed_in? %>
     <% if @article.user_id == current_user.id %>
       <div class="row">

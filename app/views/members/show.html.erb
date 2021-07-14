@@ -2,7 +2,8 @@
 
   <div class="row">
     <h3 class="my-3 float-left"> <%= @user.name%> さんの会員詳細</h3>
-
+    
+    <%# 閲覧者=本人なら編集ボタンを表示 %>
     <% if user_signed_in? %>
       <% if @user.id == current_user.id %>
         <div class="my-3 ml-5 float-right">
@@ -58,7 +59,8 @@
       </table>
     </div>
   </div>
-
+  
+  <%# ページング %>
   <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
       <div class="text-center">
