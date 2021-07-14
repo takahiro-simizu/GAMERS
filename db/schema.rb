@@ -22,13 +22,6 @@ ActiveRecord::Schema.define(version: 2021_07_11_083220) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "favorites", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "article_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false

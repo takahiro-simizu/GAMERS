@@ -1,0 +1,1087 @@
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:13:56 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:13:58 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:14:03 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20210709071523)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "name" varchar NOT NULL, "image" varchar, "fav_machine" text, "twitte_id" varchar, "instagram_id" varchar, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210709071523_devise_create_users.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20210709071523_devise_create_users.rb:45
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20210709071523_devise_create_users.rb:46
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210709071523"]]
+  ↳ bin/rails:9
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateArticles (20210711062933)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "game_name" text NOT NULL, "image_id" varchar, "review" text NOT NULL, "machine" varchar NOT NULL, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711062933_create_articles.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210711062933"]]
+  ↳ bin/rails:9
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to RenameImageColumnToUsers (20210711073135)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "profile_image" varchar DEFAULT NULL, "fav_machine" text DEFAULT NULL, "twitte_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","profile_image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at" FROM "users"[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (3.4ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "profile_image" varchar DEFAULT NULL, "fav_machine" text DEFAULT NULL, "twitte_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","profile_image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","profile_image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20210711073135_rename_image_column_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210711073135"]]
+  ↳ bin/rails:9
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to RemoveAuthorFromUsers (20210711075850)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "profile_image" varchar DEFAULT NULL, "fav_machine" text DEFAULT NULL, "twitte_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","profile_image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","profile_image","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at" FROM "users"[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "fav_machine" text DEFAULT NULL, "twitte_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20210711075850_remove_author_from_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210711075850"]]
+  ↳ bin/rails:9
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to RenameTwitteIdColumnToUsers (20210711083220)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "ausers" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "fav_machine" text DEFAULT NULL, "twitter_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_reset_password_token" ON "ausers" ("reset_password_token")[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "tindex_ausers_on_email" ON "ausers" ("email")[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "ausers" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitter_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitte_id","instagram_id","is_active","created_at","updated_at" FROM "users"[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (3.5ms)[0m  [1m[35mDROP TABLE "users"[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer NOT NULL PRIMARY KEY, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar DEFAULT NULL, "reset_password_sent_at" datetime DEFAULT NULL, "remember_created_at" datetime DEFAULT NULL, "name" varchar NOT NULL, "fav_machine" text DEFAULT NULL, "twitter_id" varchar DEFAULT NULL, "instagram_id" varchar DEFAULT NULL, "is_active" boolean DEFAULT 1 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "users" ("id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitter_id","instagram_id","is_active","created_at","updated_at")
+                     SELECT "id","email","encrypted_password","reset_password_token","reset_password_sent_at","remember_created_at","name","fav_machine","twitter_id","instagram_id","is_active","created_at","updated_at" FROM "ausers"[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "ausers"[0m
+  ↳ db/migrate/20210711083220_rename_twitte_id_column_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210711083220"]]
+  ↳ bin/rails:9
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (6.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-07-14 07:26:38.660383"], ["updated_at", "2021-07-14 07:26:38.660383"]]
+  ↳ bin/rails:9
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:28:54 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7136ms (Views: 7119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:30:31 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 582ms (Views: 551.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:30:44 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"do/tsEEZpwJnppA9CFdw7occYX48h4UDYbC+1/BoduoF4AzxyVoBYl8XLWdbDipJwnIIGy+8/IwqTQDAFOFRqw==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tkbchando@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"do/tsEEZpwJnppA9CFdw7occYX48h4UDYbC+1/BoduoF4AzxyVoBYl8XLWdbDipJwnIIGy+8/IwqTQDAFOFRqw==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 463ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:30:49 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kspZZhk5r3UzSIFpiokqotv/aIBvUl5UJV8772qin03hpbgnkXoJFQv5PDPZ0HAFnpEB5XxpJ9tuooX4jiu4DA==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tkbchando@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kspZZhk5r3UzSIFpiokqotv/aIBvUl5UJV8772qin03hpbgnkXoJFQv5PDPZ0HAFnpEB5XxpJ9tuooX4jiu4DA==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 385ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:30:55 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:31:19 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CzZugeW2/ZFYkqlneKtgWShm+XlbQAiyBGAX9Q1i8DhLqRWZUkzNwDExmqqbd7xsIydCnkMjK6eZzvIWUU7U1Q==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CzZugeW2/ZFYkqlneKtgWShm+XlbQAiyBGAX9Q1i8DhLqRWZUkzNwDExmqqbd7xsIydCnkMjK6eZzvIWUU7U1Q==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 385ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:31:34 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"utf+0GmqyXi73WF7USAOXAO5/KQmS0lZcIzspfQfWNrJuB+R4elvGINs3CECeVT7RteVwTVwMNY7cVKyEJZ/mw==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "test@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"utf+0GmqyXi73WF7USAOXAO5/KQmS0lZcIzspfQfWNrJuB+R4elvGINs3CECeVT7RteVwTVwMNY7cVKyEJZ/mw==", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 399ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 90.149.17.223 at 2021-07-14 07:31:36 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 164ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 90.149.17.223 at 2021-07-14 07:32:28 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VOLNfgYmGh77/2oDrNieumKS/Zua6h6VydbFH1wfLryWMqq/ZlNUu9CriQ2MeHDsZQKdO6a/VwPCHPhAxVPq/w==", "user"=>{"name"=>"re:test", "email"=>"aaa@gmail.com", "fav_machine"=>"PS5", "twitter_id"=>"@retest", "instagram_id"=>"@retest", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "aaa@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (2.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "fav_machine", "twitter_id", "instagram_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "aaa@gmail.com"], ["encrypted_password", "$2a$12$tYkjMjtuedbTstZBYo1dLO4Qp/vjYgzoH8fgYmyeYVd42FkK2664G"], ["name", "re:test"], ["fav_machine", "PS5"], ["twitter_id", "@retest"], ["instagram_id", "@retest"], ["created_at", "2021-07-14 07:32:28.634917"], ["updated_at", "2021-07-14 07:32:28.634917"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/1
+Completed 302 Found in 336ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:32:28 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 122ms (Views: 102.4ms | ActiveRecord: 2.2ms)
+
+
+Started DELETE "/users/sign_out" for 90.149.17.223 at 2021-07-14 07:32:34 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BLMIuydw5+AgCuvIOBLvfMk387wmhndfiyxQ4KeHk3x33On6rzNBgBi7VpJrS7XbjFma2TW9DtDA0e73Qw60PQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/
+Completed 302 Found in 12ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:32:34 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:32:36 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 157ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:33:13 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IaBzvZ+pERIYt8SAgRzZ1z6C2/RqW8VNe8XsBpgPFhLdpr2UY3JTvee+NR0et/nFv6Y7gjbvZ9PUkk3Fl0xmlA==", "user"=>{"email"=>"aaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaa@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/1
+Completed 302 Found in 322ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:33:14 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 175ms (Views: 170.2ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for 90.149.17.223 at 2021-07-14 07:33:21 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"T7ixXaItrebuS5ZWXgZmvVDU8sapBy4fJrk5wAxDt0KFnE9NraAACzGMQ3eXmzpaFXrus3PQd0pNTkWmR0ihbw=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:33:21 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:33:22 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 145ms (Views: 143.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:33:31 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xSx7og6CuGRQFEqVdTrMfVKWIQLe2uIrNAfeUudy5A8TgVQYLzrJyVVUFovoafD4000UZ/3B1VDeqrnZS13C4A==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tkbchando@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xSx7og6CuGRQFEqVdTrMfVKWIQLe2uIrNAfeUudy5A8TgVQYLzrJyVVUFovoafD4000UZ/3B1VDeqrnZS13C4A==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 378ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:33:53 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P4HiQ0dnqNZWnXaYHsCMJpEfL+PZU0/qqTnLoUNTc/8UNTBUqsALSeQQEZPXhLOtsAp2fqcMjslH2asIgCECyQ==", "user"=>{"email"=>"aaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaa@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/1
+Completed 302 Found in 311ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:33:54 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 103ms (Views: 100.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:33:57 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 95ms (Views: 92.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:34:06 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 156ms (Views: 153.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:34:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 80ms (Views: 78.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:34:09 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:34:11 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (5.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:34:13 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:34:15 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 105ms (Views: 101.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:34:17 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:34:21 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 168ms (Views: 165.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles/new" for 90.149.17.223 at 2021-07-14 07:34:28 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (17.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 125ms (Views: 113.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 90.149.17.223 at 2021-07-14 07:34:59 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sfQbkQu8LPh3fMpNagv6yo/PjXhOA0LNPcaPPYMj25pAgGmwi/PQBth+/Rjh7qcWwa5IPrUcGveT5rVaf6Cpaw==", "article"=>{"game_name"=>"マリオカート8DX", "machine"=>"Switch", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f5e598b0330 @tempfile=#<Tempfile:/tmp/RackMultipart20210714-30854-vlz9gs.jpg>, @original_filename="55e0720b1a064e28b5df173d30b343ecd91287dc86942f833ffbf979a7a66ec9.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"article[image]\"; filename=\"55e0720b1a064e28b5df173d30b343ecd91287dc86942f833ffbf979a7a66ec9.jpg\"\r\nContent-Type: image/jpeg\r\n">, "review"=>"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"}, "commit"=>"投稿する"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mArticle Create (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("game_name", "image_id", "review", "machine", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["game_name", "マリオカート8DX"], ["image_id", "c1c1eaeac4e92e5ebd3e17bcd34f84b332a2eebc984f60d992d0c025a379"], ["review", "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"], ["machine", "Switch"], ["user_id", 1], ["created_at", "2021-07-14 07:34:59.605412"], ["updated_at", "2021-07-14 07:34:59.605412"]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/articles/1
+Completed 302 Found in 34ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/articles/1" for 90.149.17.223 at 2021-07-14 07:34:59 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:18
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:23
+  Rendered articles/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 91ms (Views: 87.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/attachments/1afe5436dbd4e977d42adba71170c143fe6dc989/store/fill/700/400/c1c1eaeac4e92e5ebd3e17bcd34f84b332a2eebc984f60d992d0c025a379/image.jpg" for 90.149.17.223 at 2021-07-14 07:35:00 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-07-14 07:35:00 +0000] GET "/1afe5436dbd4e977d42adba71170c143fe6dc989/store/fill/700/400/c1c1eaeac4e92e5ebd3e17bcd34f84b332a2eebc984f60d992d0c025a379/image.jpg" 200 272.3ms
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:35:05 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 91ms (Views: 86.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments/ee725540370c124ae03fc58a9f66f4381edd9119/store/fill/70/35/c1c1eaeac4e92e5ebd3e17bcd34f84b332a2eebc984f60d992d0c025a379/image.jpg" for 90.149.17.223 at 2021-07-14 07:35:05 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-07-14 07:35:05 +0000] GET "/ee725540370c124ae03fc58a9f66f4381edd9119/store/fill/70/35/c1c1eaeac4e92e5ebd3e17bcd34f84b332a2eebc984f60d992d0c025a379/image.jpg" 200 140.2ms
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 07:35:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (7.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:35:12 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 209ms (Views: 205.0ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for 90.149.17.223 at 2021-07-14 07:35:15 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JJStrLTHw78oAVSiUqDfOCUqpKOVxCuSpqdynTvcY8hmbTwQZrTgRhSgD2LIMuFK726NlLA+33+8GKbXnOVtEg=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:35:15 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 90.149.17.223 at 2021-07-14 07:35:18 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 90.149.17.223 at 2021-07-14 07:35:47 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/TG5jLuo0q2oKTH0BVDgwrxyCuirXOZ3nDo9LshP6xm3Wo84LE6rWHjucXOVv1KTv/0o/3iYniEh5IgpoxjsIg==", "user"=>{"name"=>"takahiro", "email"=>"tkbchando@gmail.com", "fav_machine"=>"PS4", "twitter_id"=>"@ttt", "instagram_id"=>"@ttt", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tkbchando@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "fav_machine", "twitter_id", "instagram_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["email", "tkbchando@gmail.com"], ["encrypted_password", "$2a$12$kEfyZi9cm.Mm7KszUrVG3usFJQZg1t5r/FngTuDRRhy6QQCYTPK4e"], ["name", "takahiro"], ["fav_machine", "PS4"], ["twitter_id", "@ttt"], ["instagram_id", "@ttt"], ["created_at", "2021-07-14 07:35:48.051997"], ["updated_at", "2021-07-14 07:35:48.051997"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/2
+Completed 302 Found in 322ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/members/2" for 90.149.17.223 at 2021-07-14 07:35:48 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 2], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 86ms (Views: 83.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 90.149.17.223 at 2021-07-14 07:35:51 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 127ms (Views: 126.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/articles" for 90.149.17.223 at 2021-07-14 07:36:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A/F9jZpjJWsI3pDHowom1EVXhyZ5GrX/DhcCiEam1iNXUcpqTDZsx9VuKQ3nhda8ov4MjQ2JoNA9kfX/3rm5wg==", "article"=>{"game_name"=>"Ghost of Tsushima", "machine"=>"ps4", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f5e58920730 @tempfile=#<Tempfile:/tmp/RackMultipart20210714-30854-d5ns8d.jpg>, @original_filename="ghost-of-tsushima-ps4-4k-screenshots_kchg.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"article[image]\"; filename=\"ghost-of-tsushima-ps4-4k-screenshots_kchg.jpg\"\r\nContent-Type: image/jpeg\r\n">, "review"=>"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"}, "commit"=>"投稿する"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("game_name", "image_id", "review", "machine", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["game_name", "Ghost of Tsushima"], ["image_id", "a4b11c471095e7d2fe23db119711be3627d77b866d5833093971e9b0144b"], ["review", "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"], ["machine", "ps4"], ["user_id", 2], ["created_at", "2021-07-14 07:36:07.836165"], ["updated_at", "2021-07-14 07:36:07.836165"]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/articles/2
+Completed 302 Found in 28ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/articles/2" for 90.149.17.223 at 2021-07-14 07:36:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:18
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:23
+  Rendered articles/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 88ms (Views: 85.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments/61e052f2d142f760f9f3e30a70912b5643b18899/store/fill/700/400/a4b11c471095e7d2fe23db119711be3627d77b866d5833093971e9b0144b/image.jpg" for 90.149.17.223 at 2021-07-14 07:36:08 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-07-14 07:36:08 +0000] GET "/61e052f2d142f760f9f3e30a70912b5643b18899/store/fill/700/400/a4b11c471095e7d2fe23db119711be3627d77b866d5833093971e9b0144b/image.jpg" 200 905.6ms
+
+Started DELETE "/users/sign_out" for 90.149.17.223 at 2021-07-14 07:36:16 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aGPWzrsL2pxNqmsfSY9EWjylBcfC65NAcFetM/u/Vs1iUCdcs6/9fGiAQ0G+miuvKFWoAUBOoxOSiOF393oXAQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/
+Completed 302 Found in 9ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:36:16 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:36:20 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:36:29 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TGw1hnAwAygiWE4953Jo9OIk6Yp7+j/OEu8l1w4J3JO7wM3iL/3So986DkA4k7BUa0XDQsrJRI/7zY9XqpT51Q==", "user"=>{"email"=>"tkbchando@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tkbchando@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/2
+Completed 302 Found in 309ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/members/2" for 90.149.17.223 at 2021-07-14 07:36:29 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 2], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 82ms (Views: 79.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/attachments/3cd83b71c980d3e215d114ed1f32319b2f71b26f/store/fill/70/35/a4b11c471095e7d2fe23db119711be3627d77b866d5833093971e9b0144b/image.jpg" for 90.149.17.223 at 2021-07-14 07:36:30 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Refile::App: [2021-07-14 07:36:30 +0000] GET "/3cd83b71c980d3e215d114ed1f32319b2f71b26f/store/fill/70/35/a4b11c471095e7d2fe23db119711be3627d77b866d5833093971e9b0144b/image.jpg" 200 873.3ms
+
+Started DELETE "/users/sign_out" for 90.149.17.223 at 2021-07-14 07:36:32 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZZCeBQtMJ4/O4l++/TfDYZsWFcZzfoyX801S3XnRkzrJnaUcDdom5XqSPVK5p0Tp8Z8IlOPF8+Uvl1OG5YJHSw=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:36:33 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 159ms (Views: 158.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:36:34 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 90.149.17.223 at 2021-07-14 07:36:51 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l7bQsZWkhRZQEgZy+2LaMS8oHKzof2OMejh+iYxY9vXNjSOLchiy2b+5xKpfT9Jj5FLQmGwncO6iMeMm6YoJ/w==", "user"=>{"email"=>"aaa@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"ログイン"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "aaa@gmail.com"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/members/1
+Completed 302 Found in 310ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/members/1" for 90.149.17.223 at 2021-07-14 07:36:51 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by MembersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/members_controller.rb:4
+  Rendering members/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/members/show.html.erb:6
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/members/show.html.erb:49
+  Rendered members/show.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 07:36:54 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 81ms (Views: 79.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 12:21:05 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 472ms (Views: 463.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 12:21:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 57ms (Views: 55.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/new" for 90.149.17.223 at 2021-07-14 12:21:13 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (9.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 75ms (Views: 51.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/articles" for 90.149.17.223 at 2021-07-14 12:22:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tdm9YEjO/zBlD3AJh+edmHwbqhRZqbYQdbam9EQmb5JD9fhaz1U30fZn4cdMnxPckptK1yF6+ZI0eedU2KbWDg==", "article"=>{"game_name"=>"シャドウバース", "machine"=>"ios", "image"=>"{}", "review"=>"テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"}, "commit"=>"投稿する"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:43
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[36mArticle Create (0.2ms)[0m  [1m[32mINSERT INTO "articles" ("game_name", "image_id", "review", "machine", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["game_name", "シャドウバース"], ["image_id", nil], ["review", "テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"], ["machine", "ios"], ["user_id", 1], ["created_at", "2021-07-14 12:22:07.198009"], ["updated_at", "2021-07-14 12:22:07.198009"]]
+  ↳ app/controllers/articles_controller.rb:9
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/articles_controller.rb:9
+Redirected to https://d6f95cb739f54ed9be47440731799f0c.vfs.cloud9.ap-northeast-1.amazonaws.com/articles/3
+Completed 302 Found in 20ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/articles/3" for 90.149.17.223 at 2021-07-14 12:22:07 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:18
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:10
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/show.html.erb:23
+  Rendered articles/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 12:22:12 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (9.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 90.149.17.223 at 2021-07-14 12:23:32 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/articles/index.html.erb:13
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/articles/index.html.erb:18
+  Rendered articles/index.html.erb within layouts/application (8.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 12:23:35 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:21
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 90.149.17.223 at 2021-07-14 12:23:52 +0000
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+Started GET "/" for 90.149.17.223 at 2021-07-14 12:23:52 +0000
+  Rendered homes/top.html.erb within layouts/application (0.7ms)
+Cannot render console from 90.149.17.223! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomesController#top as HTML
+  Rendering homes/top.html.erb within layouts/application
+  Rendered homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 90ms (Views: 89.9ms | ActiveRecord: 0.0ms)
+
+

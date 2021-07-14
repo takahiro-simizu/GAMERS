@@ -13,13 +13,13 @@
   </div>
 
   <div class="row">
-    <%= attachment_image_tag @article, :image, :fill, 700, 400, format: 'jpg'%>
+    <%= attachment_image_tag @article, :image, :fill, 700, 400, format: 'jpg', fallback: "m_e_others_501", size: '700x400' %>
   </div>
 
   <div class="row mt-4">
     <p><%= @article.review %></p>
   </div>
-  
+
   <% if user_signed_in? %>
     <% if @article.user_id == current_user.id %>
       <div class="row">
